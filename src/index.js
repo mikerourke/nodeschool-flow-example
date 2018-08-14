@@ -19,3 +19,11 @@ if (rootElement) {
     rootElement,
   );
 }
+
+// This throws an error because it may be null:
+// render(
+//   <Container>
+//     <App />
+//   </Container>,
+//   rootElement,
+// );

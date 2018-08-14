@@ -1,3 +1,4 @@
+// @flow
 import * as React from 'react';
 import { Control, Field, Input, Label, Select } from 'bloomer';
 import type { Transaction } from '../types';
